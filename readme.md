@@ -4,4 +4,4 @@
 Follow the codes in a regular manner. Many hints and tips were given as a commented text.
 Thank you.
 
-PRs are not allowed for this moment!!!
+PRs are not allowed for this moment!!
