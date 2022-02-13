@@ -4,3 +4,5 @@ for i in range(h):
     for j in range(w):
         ar[i][j] = i + j
 print(ar)
+a = [0]*5
+print(a)
