@@ -1,5 +1,6 @@
 import random 
 random_data = [random.randint(1, i+1) for i in range(1024*12)]
+data = [8, -1, 1, -3, 7, 0]
 def QuickSort( A, low, high ): 
     if low < high: 
         pivot = Partition( A, low, high) 
@@ -12,12 +13,12 @@ def Partition( A, low, high ) :
         if A[i] <= A[high]: 
             swap( A, i, low) 
             low += 1
-    swap( A, low, high) 
+    swap(A, low, high) 
     return low
 def swap(arr: list, x: int , y: int):
     temp = arr[x]
     arr[x] = arr[y]
     arr[y] = temp
 
-QuickSort(random_data, 0, len(random_data)-1)
-print(random_data)
+QuickSort(data, 0, len(data)-1)
+print(data)
